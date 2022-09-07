@@ -20,8 +20,9 @@
                 DPI: {$this->intDpi}<br>
                 Nombre: {$this->strNombre}<br>
                 Edad: {$this->intEdad}
-
             ";
+// se debe retornar esta clase para que nos muestre los datos
+            return $datos;
         }
 
 
