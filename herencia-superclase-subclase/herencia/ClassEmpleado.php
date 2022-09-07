@@ -25,9 +25,10 @@
 
 //Luego se crea el get para obtener el puesto, como parámetro no va a obtener nada pero se le coloca :string para indicar que el valor a obtener será de ese tipo
 
-public function getPuesto():string{
-   return $this->strPuesto;
-}
+        public function getPuesto():string{
+//Aquí se configura el mensaje del puesto del empleado
+        return "Puesto: {$this->strPuesto}";
+        }
 
 
     }//End Class Empleado

@@ -11,12 +11,14 @@
             parent::__construct($dpi,$nombre,$edad);
         }
 
-        public function setCredito(string $credito){
+        public function setCredito(float $credito){
             $this->fltCredito = $credito;
         }
 
         public function getCredito():float{
-        return $this->fltCredito;
+//Aquí se configura el mensaje del crédito del cliente
+// Acá no se puede hacer esto: return "Crédito del cliente: {$this->fltCredito}"; como se hizo en Empleado porque lo toma como un string. Entonces hay que hacerlo directamente en la creación del objeto en el archivo empresa.php en la línea 25
+return $this->fltCredito;
         }
 
 

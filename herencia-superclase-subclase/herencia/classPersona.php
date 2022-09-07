@@ -19,7 +19,7 @@
                 <h2>DATOS PERSONALES</h2>
                 DPI: {$this->intDpi}<br>
                 Nombre: {$this->strNombre}<br>
-                Edad: {$this->intEdad}
+                Edad: {$this->intEdad}<br>
             ";
 // se debe retornar esta clase para que nos muestre los datos
             return $datos;
