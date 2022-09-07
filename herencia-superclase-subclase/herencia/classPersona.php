@@ -18,7 +18,9 @@
             $datos = "
                 <h2>DATOS PERSONALES</h2>
                 DPI: {$this->intDpi}<br>
-                
+                Nombre: {$this->strNombre}<br>
+                Edad: {$this->intEdad}
+
             ";
         }
 
